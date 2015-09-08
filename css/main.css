@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<style> 
+        
+        body {
+               font: 18px Helvetica;
+               background: #4682B4	;
+            background-color:lightsteelblue;
+            align-self: center
+        }
+        h1{ color: black
+            
+        }
+        h2{color: black
+        }
+        h3{color: black
+            }
+        
+
+  main {
+   min-height: 800px;
+   margin: 200px;
+   padding: 0px;
+   display: -webkit-flex;
+   display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+   }
+ 
+  #main > article {
+   margin: 4px;
+   padding: 5px;
+   	;
+   border-radius: 7pt;
+  
+   -webkit-flex: 3 1 60%;
+           flex: 3 1 60%;
+   -webkit-order: 2;
+           order: 2;
+  }
+       header, footer {
+   display: block;
+   margin: 50px;
+   padding: 5px;
+   min-height: 50px;
+   border: 1px ;
+   border-radius: 7pt;
+   
+   }
+            header,footer, body{
+            text-align: center
+            }
+            header{ font: 24px Helvetica
+            }
+    </style>
+<html lang="en"> 
